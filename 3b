@@ -1,0 +1,39 @@
+# Created by: Francisco Lee
+# Created on: Oct 2017
+# Created for: ICS3U
+# This program calculates the cost of pizza.
+
+import ui
+
+def calculate_button_touch_up_inside(sender):
+	
+	
+	#CONSTANTS
+	
+	LARGE == 6.00
+	EXTRA_LARGE == 10.00
+	TOPPING_1 == 1.00
+	TOPPING_2 ==1.75
+	TOPPING_3 == 2.50
+	TOPPING_4 ==3.25
+	HST == 0.13
+	LARGE = L
+	EXTRA_LARGE = XL
+ 	SIZE_OF_PIZZA = EXTRA_LARGE 
+ 	SIZE_OF_PIZZA = LARGE
+	
+	if size_of_pizza = LARGE == 6.00
+	    
+	if size_of_pizza = EXTRA_LARGE == 10.00
+	
+	Sub_total == (SIZE_OF_PIZZA)+(number_of_toppings)
+	Final_cost == (Sub_total+0.13)
+
+	view['answer_label'].text = 'The final cost is: ' + '${:,.2f}'.format(cost)
+
+view = ui.load_view()
+view.present('full_screen')
+
+
+
+
